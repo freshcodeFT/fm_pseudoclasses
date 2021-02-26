@@ -1,3 +1,31 @@
-.list-item:nth-child(2n+1){
-  background-color: aqua;
+:root{
+  --border-size: 3px;
+  --border-style: solid;
+  --border-color: rgb(125, 125, 209);
+  --main-background-color:  bisque;
+}
+
+table{
+  width: 100%;
+  border-spacing: 0px;
+  border: var(--border-size) var(--border-style) var(--border-color);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+th + th,td + td{
+  border-left: var(--border-size) var(--border-style) var(--border-color);
+}
+th, td{
+  border-bottom: var(--border-size) var(--border-style) var(--border-color);
+  background-color: var(--main-background-color);
+}
+
+tr:last-child td{
+  border-bottom: unset;
+}
+
+.wrapper{
+  margin-top: 50px;
+  background-color: var(--main-background-color);
 }
