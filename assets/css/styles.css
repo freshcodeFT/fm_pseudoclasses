@@ -1,0 +1,59 @@
+.web-link {
+  display: inline-block;
+  text-decoration: none;
+  /*background-color: dodgerblue;*/
+  /*color: white;*/
+  padding: 10px 15px;
+}
+
+.link-list > li ~ li {
+  margin-top: 20px;
+}
+
+
+.web-link:link{
+  font-size: 20px;
+  color: pink;
+  background-color: rgb(114, 98, 114);
+}
+
+
+.web-link:visited {
+  color: brown;
+  background-color: darkcyan;
+}
+
+.web-link:hover{
+  color: rgb(229, 248, 190);
+  background-color: rgb(0, 255, 0);
+}
+
+.web-link:active{
+  font-size: 15px;
+  background-color: red;
+  color: white;
+}
+
+
+
+
+/* .web-link:hover:not(button) {
+  background-color: orange;
+} */
+
+.link-list{
+  font-size: 40px;
+}
+
+
+.container{
+  background-color: rgb(199, 67, 67) !important;
+}
+
+.container{
+  background-color: unset !important;
+}
+
+.container{
+  background-color: orange;
+}
