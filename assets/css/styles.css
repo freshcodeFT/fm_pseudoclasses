@@ -23,23 +23,16 @@
   background-color: darkcyan;
 }
 
-.web-link:hover{
-  color: rgb(229, 248, 190);
-  background-color: rgb(0, 255, 0);
-}
 
 .web-link:active{
   font-size: 15px;
-  background-color: red;
+  background-color: red !important;
   color: white;
 }
 
-
-
-
-/* .web-link:hover:not(button) {
+.web-link:hover:not(button) {
   background-color: orange;
-} */
+} 
 
 .link-list{
   font-size: 40px;
